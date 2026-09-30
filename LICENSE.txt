@@ -1,0 +1,144 @@
+REEL/360 END-USER LICENCE AGREEMENT (EULA)
+Version 2 · 2026
+
+This agreement is between you and the author of REEL/360 ("the REEL/360 author", "we"):
+[PLACEHOLDER: name/address — full name and postal address, as in the Impressum on the website;
+contact: [PLACEHOLDER: e-mail address]]
+
+It covers the REEL/360 software as published in the file REEL360-x86_64.AppImage, including
+updates we publish ("the Software"). By installing or using the Software you accept these terms.
+If you do not accept them, do not use the Software.
+
+1. WHAT YOU GET WITHOUT A LICENCE KEY
+
+   Without buying anything we give you a non-exclusive, worldwide licence to:
+
+   a) install and use the unmodified Software on as many computers as you like. The manual
+      editor (importing footage, editing on the timeline, opening and saving projects) works
+      without a licence key, for personal and for commercial purposes;
+   b) try the AI editor: a free trial of three AI edits per computer. One AI edit is one new
+      AI run that builds a cut from scratch (a rough cut or an explainer). Chat messages and
+      revisions in a project the AI has already cut do not count. While trial edits are left,
+      you can also render and export;
+   c) copy and redistribute the unmodified Software, for example through package managers,
+      software repositories and download mirrors, as long as you pass it on exactly as we
+      published it (the unchanged AppImage file, with this licence and the third-party notices)
+      and do not charge for the Software itself. A normal fee for a distribution service or a
+      storage medium is fine. A licence key is personal: redistributing the Software never
+      includes a licence key.
+
+   What you make with the Software (videos, projects, exports) is yours. We claim no rights in it.
+
+2. PAID LICENCES
+
+   A licence key unlocks the AI editor without the trial limit, and rendering and export. It is
+   sold through Polar (polar.sh), which acts as the reseller and merchant of record: the purchase
+   contract, payment, invoices, taxes, refunds and any right of withdrawal are handled by Polar
+   under its terms. The licence to use the Software is granted by us under this agreement.
+
+   a) Founder licence (one-time payment): a perpetual licence for the versions of the Software
+      released within 12 months of your purchase ("12 months of updates"). After those 12 months
+      you may keep using those versions for as long as you like; later versions need a new or
+      renewed licence.
+   b) Subscription (monthly or yearly): a licence for all versions, for as long as your
+      subscription is active. When it ends, the AI editor, rendering and export stop; the manual
+      editor, opening and saving projects keep working, and your projects stay yours.
+
+   A licence key may be activated on up to the number of computers shown at purchase (usually
+   three) at the same time, for the use of one person, or of one team member of a business. You can
+   move it: deactivate it on one computer (Help → Licence…, or `reel360 license deactivate`)
+   and activate it on another.
+
+   To check a licence key, the Software contacts Polar's licence server when you activate it and
+   then about once a day, sending the key, the computer's name and a pseudonymous computer id (a
+   salted hash, not the machine id itself). If it cannot reach the server, the licence keeps
+   working for 14 days. A licence key that was refunded, charged back or revoked for a breach of
+   this agreement stops working.
+
+3. WHAT YOU MAY NOT DO
+
+   Unless this agreement (in particular section 4) or mandatory law allows it, you may not:
+
+   a) modify, translate, decompile, disassemble or otherwise reverse engineer the REEL/360 code
+      itself (your rights under §§ 69d and 69e of the German Copyright Act, UrhG, are not affected);
+   b) circumvent or disable the licence check or the trial limit, or share, publish or sell
+      licence keys;
+   c) distribute modified versions of the Software, or sell, rent or sublicense the Software;
+   d) remove or change copyright notices, this licence or the third-party notices.
+
+   All rights not expressly granted in this agreement remain with the REEL/360 author.
+
+4. OPEN-SOURCE COMPONENTS: YOUR RIGHTS UNDER THEIR LICENCES
+
+   The Software contains open-source components, for example Python, Qt / PySide6 and FFmpeg.
+   They are listed, with their full licence texts, in THIRD_PARTY_NOTICES.txt (shipped next to
+   this file, shown by `REEL360-x86_64.AppImage --licenses`). Each component is licensed to you
+   under its own licence, and nothing in this agreement, including the licence check, limits the
+   rights those licences give you.
+
+   In particular, for the libraries under the GNU Lesser General Public License (Qt / PySide6
+   under the LGPL version 3, the FFmpeg libraries under the LGPL version 2.1 or later / version 3):
+   you may modify these libraries and use your modified versions with the Software (for example
+   by replacing the library files inside the extracted AppImage), and you may reverse engineer
+   the Software as far as needed to debug such modifications (section 4 of the LGPL version 3,
+   section 6 of the LGPL version 2.1). Section 3 does not restrict this. The ffmpeg and ffprobe
+   programs shipped with the Software are separate programs licensed under the GNU General Public
+   License version 3.
+
+   The complete corresponding source code of the GPL / LGPL components is published as an
+   archive attached to the same GitHub release as the AppImage. SOURCES.txt, next to this file,
+   explains what it contains.
+
+5. SERVICES OF OTHER PROVIDERS, AND YOUR MATERIAL
+
+   The AI editor runs Claude Code, and other features use hosted models such as OpenRouter, Qwen
+   or Gemini. All of these run under your own accounts, subscriptions or API keys. Your use of
+   them is governed by your agreements with those providers, including their terms, usage
+   policies and fees, and their costs are yours. We are not a party to those agreements, we do
+   not resell these services, and we are not responsible for them. REEL/360 is not made, endorsed
+   or supported by any of these providers.
+
+   If you use REEL/360 for a business, make sure your Claude access allows that use. Anthropic's
+   consumer plans (Claude Pro / Max) are governed by its consumer terms; for commercial work we
+   recommend an Anthropic API key (AI → Providers and Keys → BILLING), which is governed by Anthropic's
+   commercial terms.
+
+   You are responsible for having the rights to the material you import, download, edit and
+   publish, including footage, music and media downloaded from web pages, and for complying with
+   the terms of the sites you download from.
+
+   At start the Software asks GitHub whether a newer version exists (you can turn this off in
+   Settings), and it checks licence keys with Polar (section 2). Models the Software needs can be
+   downloaded from their publishers (for example Hugging Face, GitHub or Google). Apart from that,
+   and the services you configure yourself, the Software sends nothing to us: there is no
+   telemetry.
+
+6. WARRANTY AND LIABILITY
+
+   Keep backups of your footage and projects; AI features can make mistakes. For the trial and
+   the free manual editor, which you get free of charge, we are liable only for intent and gross
+   negligence (§ 521 of the German Civil Code, BGB) and for defects we fraudulently concealed
+   (§ 524 BGB).
+
+   For paid licences, the statutory warranty rights apply; if you are a consumer, this includes
+   your rights for digital products under §§ 327 ff. BGB. We are liable without limitation for
+   intent and gross negligence, for injury to life, body or health, under a guarantee we gave, for
+   defects we fraudulently concealed, and under the German Product Liability Act
+   (Produkthaftungsgesetz). For slight negligence we are liable only for the breach of an
+   essential contractual obligation (one whose fulfilment makes the proper performance of this
+   agreement possible and on which you may regularly rely), and then only for the damage that is
+   typical and foreseeable for this kind of contract. Any other liability for slight negligence is
+   excluded. These limits also apply to the people we work with.
+
+7. END OF THE LICENCE
+
+   Your licence under this agreement ends automatically if you break its terms. Your rights under
+   the licences of the open-source components (section 4) do not depend on this agreement.
+
+8. APPLICABLE LAW
+
+   This agreement is governed by the law of the Federal Republic of Germany, excluding the UN
+   Convention on Contracts for the International Sale of Goods (CISG). If you are a consumer, the
+   mandatory consumer-protection rules of the country where you live continue to apply. If you
+   are a merchant (Kaufmann), the courts at our place of business have jurisdiction. If a
+   provision of this agreement is invalid, the rest of it remains valid.

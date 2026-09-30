@@ -52,7 +52,26 @@ Keep the AppImage somewhere you own (for example `~/Applications`) so it can upd
 ./REEL360-x86_64.AppImage --help            # all commands
 ```
 
-## Bundled software
+## Licence
 
-ffmpeg/ffprobe (GPL build, https://ffmpeg.org), Qt / PySide6 (LGPL), and Python packages
-under their own licenses.
+REEL/360 is proprietary, not open source: see **[LICENSE.txt](LICENSE.txt)**. In short: the
+download is free and the manual editor works without a licence; a free trial covers three AI edits;
+a paid licence (Founder, or a monthly / yearly subscription, sold through Polar) unlocks the AI
+editor, rendering and export. Enter the key in Help → Licence…. You may pass the unmodified AppImage
+on (package managers and mirrors are welcome); a licence key is personal. The AI services you
+connect (Claude Code, OpenRouter, …) run on your own accounts, under those providers' terms and costs.
+
+The AppImage also contains open-source software: Python, Qt / PySide6 (LGPL v3), FFmpeg (the
+libraries REEL/360 uses: LGPL; the separate `ffmpeg` / `ffprobe` programs: GPL v3), OpenCV,
+MediaPipe, ONNX Runtime, faster-whisper, yt-dlp, Deno, the Plex fonts and more. Each keeps its
+own licence, and the REEL/360 licence does not limit what those licences allow you to do (for
+example, replacing the LGPL libraries with your own builds).
+
+- **[THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)**: every component, its licence and the
+  full licence texts
+- **[SOURCES.txt](SOURCES.txt)**: the source code of the GPL / LGPL components. It is attached to
+  every release as `REEL360-<version>-sources.tar`.
+- The same files are inside the AppImage: `./REEL360-x86_64.AppImage --licenses`, or
+  Help → About → LICENCES.
+
+These files are updated by every release; the ones attached to a release belong to that version.

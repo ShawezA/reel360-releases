@@ -1,0 +1,23 @@
+REEL/360 2.1.0 — SOURCE CODE OF THE GPL / LGPL COMPONENTS
+
+The complete corresponding source code of the GPL and LGPL components in REEL360-x86_64.AppImage is
+attached to the same GitHub release as the AppImage, as REEL360-2.1.0-sources.tar (larger archives
+are split into REEL360-2.1.0-sources.tar.part-* files: join them with `cat
+REEL360-*-sources.tar.part-* > sources.tar`). It contains:
+
+* ffmpeg/: FFmpeg (ffmpeg/ffprobe programs, PyAV libraries) — FFmpeg commit
+  1a748fe2cd43e3ead22fafb1b5b7d77f153898a8 (n8.1.2-50-g1a748fe2cd), the BtbN/FFmpeg-Builds scripts
+  at autobuild-2026-08-31-13-27 that built it, and the source of every library they build in (x264,
+  x265, …)
+* qt/: Qt 6.11.2 / Qt for Python — Qt 6.11.2 modules qtbase, qtimageformats, qtmultimedia, qtsvg,
+  qttranslations, qtwayland and pyside-setup 6.11.2
+* ffmpeg-opencv_python_headless/: FFmpeg 8.1.1 (bundled by opencv_python_headless) —
+  https://ffmpeg.org/releases/ffmpeg-8.1.1.tar.xz
+* appimage-runtime/: AppImage type2-runtime 20251108 —
+  https://github.com/AppImage/type2-runtime/archive/refs/tags/20251108.tar.gz
+* appimage-runtime/: libfuse 3.15.0 (in the AppImage runtime) —
+  https://github.com/libfuse/libfuse/releases/download/fuse-3.15.0/fuse-3.15.0.tar.xz
+
+To use a modified version of an LGPL library (Qt / PySide6, the FFmpeg libraries of PyAV): run
+`REEL360-x86_64.AppImage --appimage-extract`, replace the library files in squashfs-root/ with your
+build of the same version, and start squashfs-root/AppRun.
