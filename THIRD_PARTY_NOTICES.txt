@@ -1,4 +1,4 @@
-REEL/360 2.4.0 — THIRD-PARTY SOFTWARE NOTICES
+REEL/360 2.5.0 — THIRD-PARTY SOFTWARE NOTICES
 
 REEL/360 is proprietary software (see LICENSE next to this file). The REEL360-x86_64.AppImage file
 also contains the open-source components listed here. Each is licensed to you under its own licence,
@@ -79,7 +79,7 @@ typing_extensions 4.16.0                      PSF-2.0
 typing-inspection 0.4.4                       MIT
 urllib3 2.8.0                                 MIT
 uvicorn 0.54.0                                BSD-3-Clause
-websockets 17.1                               BSD-3-Clause
+websockets 17.2                               BSD-3-Clause
 yt-dlp 2026.8.19                              Unlicense
 yt-dlp-ejs 0.8.0                              Unlicense AND MIT AND ISC
 FFmpeg libraries used by PyAV n8.1.2-50-g1a748fe2cd-20260831
@@ -49439,13 +49439,13 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
-websockets 17.1
+websockets 17.2
 ----------------------------------------------------------------------------------------------------
 Licence: BSD-3-Clause
 In the AppImage: usr/python/…/site-packages (.., websockets)
 Homepage: https://github.com/python-websockets/websockets
 
---- websockets-17.1.dist-info/licenses/LICENSE ---
+--- websockets-17.2.dist-info/licenses/LICENSE ---
 Copyright (c) Aymeric Augustin and contributors
 
 Redistribution and use in source and binary forms, with or without
