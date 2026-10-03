@@ -1,4 +1,4 @@
-REEL/360 2.3.0 — THIRD-PARTY SOFTWARE NOTICES
+REEL/360 2.4.0 — THIRD-PARTY SOFTWARE NOTICES
 
 REEL/360 is proprietary software (see LICENSE next to this file). The REEL360-x86_64.AppImage file
 also contains the open-source components listed here. Each is licensed to you under its own licence,
@@ -41,8 +41,8 @@ jsonschema 4.26.0                             MIT
 jsonschema-specifications 2025.9.1            MIT
 kiwisolver 1.5.1                              BSD License
 matplotlib 3.11.2                             Python Software Foundation License
-mcp 2.2.0                                     MIT
-mcp-types 2.2.0                               MIT
+mcp 2.3.0                                     MIT
+mcp-types 2.3.0                               MIT
 mediapipe 1.0.1                               Apache 2.0
 numpy 2.5.3                                   BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
 onnxruntime 1.30.0                            MIT License
@@ -4008,13 +4008,13 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ====================================================================================================
-mcp 2.2.0
+mcp 2.3.0
 ----------------------------------------------------------------------------------------------------
 Licence: MIT
 In the AppImage: usr/python/…/site-packages (.., mcp)
 Homepage: https://modelcontextprotocol.io
 
---- mcp-2.2.0.dist-info/licenses/LICENSE ---
+--- mcp-2.3.0.dist-info/licenses/LICENSE ---
 MIT License
 
 Copyright (c) 2024 Anthropic, PBC
@@ -4038,13 +4038,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ====================================================================================================
-mcp-types 2.2.0
+mcp-types 2.3.0
 ----------------------------------------------------------------------------------------------------
 Licence: MIT
 In the AppImage: usr/python/…/site-packages (mcp_types)
 Homepage: https://modelcontextprotocol.io
 
---- mcp_types-2.2.0.dist-info/licenses/LICENSE: same text as printed above for mcp (mcp-2.2.0.dist-info/licenses/LICENSE)
+--- mcp_types-2.3.0.dist-info/licenses/LICENSE: same text as printed above for mcp (mcp-2.3.0.dist-info/licenses/LICENSE)
 
 ====================================================================================================
 mediapipe 1.0.1
