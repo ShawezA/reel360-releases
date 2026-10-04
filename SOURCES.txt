@@ -1,8 +1,8 @@
-REEL/360 2.5.1 — SOURCE CODE OF THE GPL / LGPL COMPONENTS
+REEL/360 2.5.2 — SOURCE CODE OF THE GPL / LGPL COMPONENTS
 
 The complete corresponding source code of the GPL and LGPL components in REEL360-x86_64.AppImage is
-attached to the same GitHub release as the AppImage, as REEL360-2.5.1-sources.tar (larger archives
-are split into REEL360-2.5.1-sources.tar.part-* files: join them with `cat
+attached to the same GitHub release as the AppImage, as REEL360-2.5.2-sources.tar (larger archives
+are split into REEL360-2.5.2-sources.tar.part-* files: join them with `cat
 REEL360-*-sources.tar.part-* > sources.tar`). It contains:
 
 * ffmpeg/: FFmpeg (ffmpeg/ffprobe programs, PyAV libraries) — FFmpeg commit
