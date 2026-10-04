@@ -1,4 +1,4 @@
-REEL/360 2.5.0 — THIRD-PARTY SOFTWARE NOTICES
+REEL/360 2.5.1 — THIRD-PARTY SOFTWARE NOTICES
 
 REEL/360 is proprietary software (see LICENSE next to this file). The REEL360-x86_64.AppImage file
 also contains the open-source components listed here. Each is licensed to you under its own licence,
@@ -25,7 +25,7 @@ cryptography 50.0.2                           Apache-2.0 OR BSD-3-Clause
 ctranslate2 4.8.2                             MIT
 cycler 0.12.1                                 BSD License
 faster-whisper 1.2.1                          MIT
-filelock 4.0.9                                MIT
+filelock 4.0.10                               MIT
 flatbuffers 25.12.19                          Apache 2.0
 fonttools 4.66.1                              MIT
 fsspec 2026.9.0                               BSD-3-Clause
@@ -1450,13 +1450,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ====================================================================================================
-filelock 4.0.9
+filelock 4.0.10
 ----------------------------------------------------------------------------------------------------
 Licence: MIT
 In the AppImage: usr/python/…/site-packages (filelock)
 Homepage: https://github.com/tox-dev/py-filelock
 
---- filelock-4.0.9.dist-info/licenses/LICENSE ---
+--- filelock-4.0.10.dist-info/licenses/LICENSE ---
 MIT License
 
 Copyright (c) 2025 Bernát Gábor and contributors
