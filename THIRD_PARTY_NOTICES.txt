@@ -1,4 +1,4 @@
-REEL/360 2.5.5 — THIRD-PARTY SOFTWARE NOTICES
+REEL/360 2.5.6 — THIRD-PARTY SOFTWARE NOTICES
 
 REEL/360 is proprietary software (see LICENSE next to this file). The REEL360-x86_64.AppImage file
 also contains the open-source components listed here. Each is licensed to you under its own licence,
