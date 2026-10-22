@@ -1,16 +1,16 @@
-REEL/360 2.5.7 — SOURCE CODE OF THE GPL / LGPL COMPONENTS
+REEL/360 2.6.0 — SOURCE CODE OF THE GPL / LGPL COMPONENTS
 
 The complete corresponding source code of the GPL and LGPL components in REEL360-x86_64.AppImage is
-attached to the same GitHub release as the AppImage, as REEL360-2.5.7-sources.tar (larger archives
-are split into REEL360-2.5.7-sources.tar.part-* files: join them with `cat
+attached to the same GitHub release as the AppImage, as REEL360-2.6.0-sources.tar (larger archives
+are split into REEL360-2.6.0-sources.tar.part-* files: join them with `cat
 REEL360-*-sources.tar.part-* > sources.tar`). It contains:
 
 * ffmpeg/: FFmpeg (ffmpeg/ffprobe programs, PyAV libraries) — FFmpeg commit
   1a748fe2cd43e3ead22fafb1b5b7d77f153898a8 (n8.1.2-50-g1a748fe2cd), the BtbN/FFmpeg-Builds scripts
   at autobuild-2026-08-31-13-27 that built it, and the source of every library they build in (x264,
   x265, …)
-* qt/: Qt 6.11.2 / Qt for Python — Qt 6.11.2 modules qtbase, qtimageformats, qtmultimedia, qtsvg,
-  qttranslations, qtwayland and pyside-setup 6.11.2
+* qt/: Qt 6.12.0 / Qt for Python — Qt 6.12.0 modules qtbase, qtimageformats, qtmultimedia, qtsvg,
+  qttranslations, qtwayland and pyside-setup 6.12.0
 * ffmpeg-opencv_python_headless/: FFmpeg 8.1.1 (bundled by opencv_python_headless) —
   https://ffmpeg.org/releases/ffmpeg-8.1.1.tar.xz
 * appimage-runtime/: AppImage type2-runtime 20251108 —
